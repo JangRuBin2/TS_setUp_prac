@@ -1,3 +1,6 @@
+import {data} from "./moudle-file";
+console.log(data);
+
 var a = 1;
 var b = 2;
 
