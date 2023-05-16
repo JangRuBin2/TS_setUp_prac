@@ -1,5 +1,7 @@
 import {data} from "./moudle-file";
+import {daegun} from "./module-daegun";
 console.log(data);
+console.log(daegun("대건"));
 
 var a = 1;
 var b = 2;
