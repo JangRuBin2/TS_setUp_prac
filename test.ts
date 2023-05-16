@@ -1,5 +1,5 @@
 function test(object : object) {
-  let value = [];
+  let value:Array<string> = [];
   for (let key in object) {
     value.push(key)
   }
@@ -10,4 +10,4 @@ const testObject = {
   b : "스님",
   c : "빡박이"
 }
-console.log(test(testObject))
+console.log(test(testObject));

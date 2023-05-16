@@ -18,6 +18,7 @@
   "homepage": "https://github.com/JangRuBin2/TS_setUp_prac#readme",
   "devDependencies": {
     "@types/node": "^20.1.5",
+    "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   }
 }
