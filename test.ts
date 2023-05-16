@@ -1,4 +1,4 @@
-function test(object) {
+function test(object : object) {
   let value = "";
   for (let key in object) {
     value += object[key];
