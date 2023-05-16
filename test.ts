@@ -1,7 +1,7 @@
 var a = 1;
 var b = 2;
 
-function test(a,b) {
+function test(a: number,b: number) {
   return a + b;
 }
-console.log(test(a,b));
+console.log(test(1,2));
