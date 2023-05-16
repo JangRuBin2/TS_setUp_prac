@@ -1,7 +1,7 @@
 function test(object : object) {
-  let value = "";
+  let value = [];
   for (let key in object) {
-    value += object[key];
+    value.push(key)
   }
   return value
 }
